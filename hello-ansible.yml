@@ -1,0 +1,6 @@
+---
+- name: Hello Ansible!
+  hosts: all
+  tasks:
+  - name: Hello Ansible!
+    shell: echo "Önceden buralar hep dutlukdu"

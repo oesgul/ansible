@@ -7,4 +7,4 @@
   - name: install nginx
     yum:
       name: nginx
-      status: latest
+      state: latest

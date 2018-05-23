@@ -5,4 +5,6 @@
   - name: Hello Ansible!
     shell: echo "Önceden buralar hep dutlukdu"
   - name: install nginx
-    yum: name:nginx status:present
+    yum: 
+      name: nginx
+      status: present
